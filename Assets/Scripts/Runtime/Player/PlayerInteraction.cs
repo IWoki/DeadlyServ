@@ -1,5 +1,6 @@
 using UnityEngine;
 using Woks.DeadlyServ.Scripts.Runtime.Interaction;
+using Woks.DeadlyServ.Scripts.Runtime.UI;
 
 namespace Woks.DeadlyServ.Scripts.Runtime.Player
 {
@@ -14,15 +15,12 @@ namespace Woks.DeadlyServ.Scripts.Runtime.Player
         private BoxCollider2D _playerCollider;
 
         private void Start()
-        {
-            Debug.Log("[PlayerInteraction] Start вызван");
-            
+        {            
             _gameInput = FindFirstObjectByType<GameInput>();
             _playerCollider = GetComponent<BoxCollider2D>();
 
             if (_gameInput != null)
             {
-                Debug.Log("[PlayerInteraction] GameInput найден!");
                 _gameInput.OnInteractPressed += HandleInteract;
             }
         }
@@ -70,17 +68,10 @@ namespace Woks.DeadlyServ.Scripts.Runtime.Player
         }
 
         private void HandleInteract()
-        {
-            Debug.Log("[PlayerInteraction] HandleInteract вызван!");
-            
+        {            
             if (_currentInteractable != null)
             {
-                Debug.Log($"[PlayerInteraction] Взаимодействие с: {_currentInteractable.GetObjectName()}");
                 _currentInteractable.Interact();
-            }
-            else
-            {
-                Debug.LogWarning("[PlayerInteraction] Нет объекта для взаимодействия рядом. Подойдите ближе!");
             }
         }
 
