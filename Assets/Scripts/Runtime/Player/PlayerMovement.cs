@@ -10,9 +10,6 @@ namespace Woks.DeadlyServ.Scripts.Runtime.Player
         private Rigidbody2D _player;
         private Vector2 _moveVelocity;
         private GameInput _gameInput;
-
-        private float _minimalMovingSpeed = 0.1f;
-
         public event System.Action<Vector2, float> OnMovementChanged;
 
         void Start()

@@ -52,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -90,7 +90,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -131,20 +131,20 @@ TextureImporter:
       name: Kitchen_1Lvl_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 31
-        width: 10
-        height: 19
+        x: 8
+        y: 8
+        width: 102
+        height: 46
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 25, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 71cee3fa423e75800800000000000000
-      internalID: 601198821975714839
+      spriteID: cae190a6edee04c00800000000000000
+      internalID: 882968165993750188
       vertices: []
       indices: 
       edges: []
@@ -153,20 +153,20 @@ TextureImporter:
       name: Kitchen_1Lvl_1
       rect:
         serializedVersion: 2
-        x: 17
-        y: 32
-        width: 94
-        height: 20
+        x: 134
+        y: 33
+        width: 20
+        height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 66a5b762725867ef0800000000000000
-      internalID: -110754737628161434
+      spriteID: f2c843ecf73135c4080d85a67883197f
+      internalID: 1016899787
       vertices: []
       indices: 
       edges: []
@@ -175,86 +175,20 @@ TextureImporter:
       name: Kitchen_1Lvl_2
       rect:
         serializedVersion: 2
-        x: 133
-        y: 32
-        width: 22
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4335e7a449fabab00800000000000000
-      internalID: 840958806874542900
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kitchen_1Lvl_3
-      rect:
-        serializedVersion: 2
-        x: 157
-        y: 33
-        width: 13
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 867c19c3b70cce7e0800000000000000
-      internalID: -1734800120914786456
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kitchen_1Lvl_4
-      rect:
-        serializedVersion: 2
-        x: 8
-        y: 20
+        x: 158
+        y: 34
         width: 11
-        height: 7
+        height: 10
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 2fa84aed56e921510800000000000000
-      internalID: 1518450184741489394
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kitchen_1Lvl_5
-      rect:
-        serializedVersion: 2
-        x: 9
-        y: 7
-        width: 12
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9841757b02a9c5490800000000000000
-      internalID: -7756154992933268343
+      spriteID: 76470262683ed2341a66cd8ae162c1e1
+      internalID: -903157562
       vertices: []
       indices: 
       edges: []
@@ -263,7 +197,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a3eb3d89598c2eb49b120af939d48c26
     internalID: 0
     vertices: []
     indices: 
@@ -273,12 +207,28 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Kitchen_1Lvl_0: 601198821975714839
-      Kitchen_1Lvl_1: -110754737628161434
-      Kitchen_1Lvl_2: 840958806874542900
-      Kitchen_1Lvl_3: -1734800120914786456
-      Kitchen_1Lvl_4: 1518450184741489394
-      Kitchen_1Lvl_5: -7756154992933268343
+      GGFox_0: -712817866392512919
+      GGFox_1: -3675478731554899610
+      GGFox_10: 5082795558800524156
+      GGFox_11: -5666889852438479290
+      GGFox_12: 3863367325168151268
+      GGFox_13: -6509350293957609574
+      GGFox_14: -3725647269909682739
+      GGFox_15: -2893798228783299251
+      GGFox_17: 1876872914840351974
+      GGFox_18: -514530470582830320
+      GGFox_19: -5394530700819175676
+      GGFox_2: 6856107230204009242
+      GGFox_3: -7810466041981108750
+      GGFox_4: 5768349698417471948
+      GGFox_5: 7415838570981029293
+      GGFox_6: -6205068305588395913
+      GGFox_7: 1302176934714680928
+      GGFox_8: 6491134281405107212
+      GGFox_9: -4858229628883340571
+      Kitchen_1Lvl_0: 882968165993750188
+      Kitchen_1Lvl_1: 1016899787
+      Kitchen_1Lvl_2: -903157562
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

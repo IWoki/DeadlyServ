@@ -5,6 +5,7 @@ namespace Woks.DeadlyServ.Scripts.Runtime.Player
     public class GameInput : MonoBehaviour
     {
         public event System.Action<Vector2> OnMoveVectorChanged;
+        public event System.Action OnInteractPressed;
 
         private Vector2 _moveInput;
 
@@ -16,6 +17,11 @@ namespace Woks.DeadlyServ.Scripts.Runtime.Player
             _moveInput = new Vector2(horizontal, vertical).normalized;
 
             OnMoveVectorChanged?.Invoke(_moveInput);
+
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                OnInteractPressed?.Invoke();
+            }
         }
 
         public Vector2 GetMovementVector()
