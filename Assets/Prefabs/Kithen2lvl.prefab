@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 7596655101075526366}
   - component: {fileID: 3322507297798087042}
   - component: {fileID: 2613735394417343160}
+  - component: {fileID: 3443859988045644648}
   m_Layer: 0
   m_Name: Fridge
   m_TagString: Untagged
@@ -110,7 +111,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: -6775524840637373159, guid: 88e45f00a6167a546ada54f0b61e46eb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -152,11 +153,11 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0.88}
+  m_Offset: {x: 0, y: 0.41}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -168,6 +169,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.28, y: 0.48}
   m_EdgeRadius: 0
+--- !u!114 &3443859988045644648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4289714087036900503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb3d5c428d123b547b04d9e62e3ff1dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _objectName: Fridge
 --- !u!1 &5239198698294887002
 GameObject:
   m_ObjectHideFlags: 0
@@ -180,6 +194,7 @@ GameObject:
   - component: {fileID: 5386169168935618495}
   - component: {fileID: 1399459095292751611}
   - component: {fileID: 6105190871781727808}
+  - component: {fileID: 706802912606049302}
   m_Layer: 0
   m_Name: CookingTable
   m_TagString: Untagged
@@ -245,7 +260,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: -3780300374748312025, guid: 88e45f00a6167a546ada54f0b61e46eb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -287,11 +302,11 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.047281742, y: 1.4070654}
+  m_Offset: {x: 0.047281742, y: 0.41}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -333,7 +348,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -349,6 +364,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.6983776, y: 2.6781464}
   m_EdgeRadius: 0
+--- !u!114 &706802912606049302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5239198698294887002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb3d5c428d123b547b04d9e62e3ff1dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _objectName: Kithen
 --- !u!1 &7568011444782063538
 GameObject:
   m_ObjectHideFlags: 0
@@ -360,8 +388,9 @@ GameObject:
   - component: {fileID: 5666380475927476981}
   - component: {fileID: 2556761243905298862}
   - component: {fileID: 6383631502742265984}
+  - component: {fileID: 8141027347077035108}
   m_Layer: 0
-  m_Name: garbage
+  m_Name: Garbage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -425,7 +454,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: -8635116653035533700, guid: 88e45f00a6167a546ada54f0b61e46eb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -467,11 +496,11 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.021632016, y: 1.5573964}
+  m_Offset: {x: 0.021632016, y: 0.41}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -483,3 +512,16 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.77326405, y: 0.46687603}
   m_EdgeRadius: 0
+--- !u!114 &8141027347077035108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7568011444782063538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb3d5c428d123b547b04d9e62e3ff1dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _objectName: Garbahe

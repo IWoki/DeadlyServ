@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5085605595149590628}
   - component: {fileID: 136484579165901624}
   - component: {fileID: 845221762050885634}
+  - component: {fileID: 1876179649409189586}
   m_Layer: 0
   m_Name: Fridge
   m_TagString: Untagged
@@ -27,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 1474699024798295597}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.939, y: 0.359, z: 4.5162897}
+  m_LocalPosition: {x: 3.56, y: 0.359, z: 4.5162897}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -76,7 +77,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 1016899787, guid: a4b1c88027ca17343b70d429298b3bcf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -118,11 +119,11 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0.88}
+  m_Offset: {x: 0, y: 0.45}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -134,6 +135,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.28, y: 0.48}
   m_EdgeRadius: 0
+--- !u!114 &1876179649409189586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474699024798295597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb3d5c428d123b547b04d9e62e3ff1dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _objectName: Fridge
 --- !u!1 &2861667496229092996
 GameObject:
   m_ObjectHideFlags: 0
@@ -179,8 +193,9 @@ GameObject:
   - component: {fileID: 7015493098825893967}
   - component: {fileID: 901984393039667988}
   - component: {fileID: 8604190651385860666}
+  - component: {fileID: 3181287915569590163}
   m_Layer: 0
-  m_Name: garbage
+  m_Name: Garbage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -244,7 +259,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: -903157562, guid: a4b1c88027ca17343b70d429298b3bcf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -286,11 +301,11 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 1.27}
+  m_Offset: {x: 0, y: 0.45}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -302,6 +317,19 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.73, y: 0.3}
   m_EdgeRadius: 0
+--- !u!114 &3181287915569590163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5114387712584330504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb3d5c428d123b547b04d9e62e3ff1dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _objectName: Garbage
 --- !u!1 &7442851210633883872
 GameObject:
   m_ObjectHideFlags: 0
@@ -313,6 +341,7 @@ GameObject:
   - component: {fileID: 7526810341256907040}
   - component: {fileID: 7295983793405752581}
   - component: {fileID: 4365376074490076225}
+  - component: {fileID: 1139896415551648664}
   m_Layer: 0
   m_Name: CookingTable
   m_TagString: Untagged
@@ -378,7 +407,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 1
   m_Sprite: {fileID: 882968165993750188, guid: a4b1c88027ca17343b70d429298b3bcf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -420,11 +449,11 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.32, y: 1.51}
+  m_Offset: {x: 0.32, y: 0.98}
   m_SpriteTilingProperty:
     border: {x: 0, y: 1.5625, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -436,3 +465,16 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 5.79, y: 0.44}
   m_EdgeRadius: 0
+--- !u!114 &1139896415551648664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7442851210633883872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb3d5c428d123b547b04d9e62e3ff1dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _objectName: Kitchen
